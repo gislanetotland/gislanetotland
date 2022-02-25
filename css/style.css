@@ -502,12 +502,7 @@ body.navToggleActive {
   z-index: 1;
   padding: 50px 0 ;
 }
-.pCol {
-  height: 100%;
-}
-.pImg {
-  width: 100%;
-}
+
 
 .portfolioRow .pColMain:nth-child(2n-1) .pCol {
   margin-top: -110px;
@@ -660,12 +655,25 @@ body.navToggleActive {
   }
 
   .bannerUserImg {
-  	margin-left: 0;
+  	margin: auto;
   	width: 180px;
   	height: 180px;
   }
   .bannerSection {
   	padding: 120px 0 50px;
+    text-align: center;
+  }
+  .portfolioImgCol, .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .portfolioContentCol{
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .col-md-auto{
+    padding-bottom: 2em;
   }
   .tImgCol {
   	margin-right: 0;
