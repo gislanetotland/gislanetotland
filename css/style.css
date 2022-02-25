@@ -1,12 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Heebo:wght@400;500;700;900&display=swap');
-/* font-family: 'Courier Prime', monospace;
-font-family: 'Heebo', sans-serif; */
+
 :root {
-  /*--primaryColor: #9C07B6;*/
   --primaryColor: #2f9934;
-  /*--primaryDarkColor: #3D0048;*/
   --primaryDarkColor: #1b581e;
-  /*--primaryHoverColor: #900AA8;*/
   --primaryHoverColor: #28552a;
   --secondaryColor: #992F94;
   --baseColor: #21243D;
@@ -623,7 +619,7 @@ body.navToggleActive {
     bottom: 0;
     width: 230px;
     padding: 20px;
-    background: var(--primaryDarkColor);
+    background: var(--baseColor);
     z-index: 99;
     -webkit-transform: translateX(-100%);
     -ms-transform: translateX(-100%);
