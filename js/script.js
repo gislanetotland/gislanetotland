@@ -1,6 +1,10 @@
+$('main').removeClass('opacity');
+
 $('.navToggle').on('click', function (e) {
   e.preventDefault();
-  $('body').toggleClass('navToggleActive');
+    $('body').toggleClass('navToggleActive');
+    $('main').toggleClass('opacity');
+  
 });
 
 

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Heebo:wght@400;500;700;900&display=swap');
-
+/*font-family: 'Courier Prime', monospace;
+font-family: 'Heebo', sans-serif; */
 :root {
   --primaryColor: #2f9934;
   --primaryDarkColor: #1b581e;
@@ -403,9 +404,6 @@ a, .btn {
   border-radius: 6px;
   width: 346px;
   height: 284px;
-/*  
-  width: 246px;
-  height: 184px;*/
   -o-object-fit: cover;
   object-fit: cover;
 }
@@ -413,8 +411,6 @@ a, .btn {
   padding: 20px 0;
   border-bottom: 1px solid #E0E0E0;
 }
-
-
 
 .testimonialCol {
   padding-top: 35px;
@@ -458,12 +454,9 @@ a, .btn {
   padding: 0 40px;
 }
 
-
 body.navToggleActive {
 	overflow: hidden;
 }
-
-
 
 
 /* footer */
@@ -619,7 +612,7 @@ body.navToggleActive {
     bottom: 0;
     width: 230px;
     padding: 20px;
-    background: var(--baseColor);
+    background: var(--lightBg);
     z-index: 99;
     -webkit-transform: translateX(-100%);
     -ms-transform: translateX(-100%);
@@ -632,6 +625,12 @@ body.navToggleActive {
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
     transform: translateX(0);
+  }
+  .opacity{
+
+    /*background-color:*/
+    opacity: 0.5;
+  
   }
   .navCol {
   	text-align: left;
@@ -650,7 +649,7 @@ body.navToggleActive {
   }
   .navCol a {
   	font-size: 16px;
-    color: var(--bs-white);
+    color: var(--baseColor);
   }
 
   .bannerUserImg {
